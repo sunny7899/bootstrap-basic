@@ -1,3 +1,17 @@
+# About
+
+bootstrap classes usage
+
+# Dependencies used
+
+bootstrap - css, js
+font-awesome
+jquery
+
+
+
+
+
 # Bootstrap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
