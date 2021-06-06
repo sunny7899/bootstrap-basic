@@ -1,46 +1,19 @@
-<input type="text" placeholder="cat photo URL" class="form-control" required />
 
-<h1>Example <span class="label label-default">New</span></h1>
-<h2>Basic Progress Bar</h2>
+<hr>
 <div class="progress">
   <div
-    class="progress-bar"
+    class="progress-bar progress-bar-success progress-bar-striped"
     role="progressbar"
     aria-valuenow="70"
     aria-valuemin="0"
     aria-valuemax="100"
     style="width: 70%"
   >
-    <span class="sr-only">70% Complete</span>
+
+    <span class="sr-only">70% Complete Basic Progress Bar</span>
   </div>
 </div>
-<h2>Progress Bar With Label</h2>
-<div class="progress">
-  <div
-    class="progress-bar"
-    role="progressbar"
-    aria-valuenow="70"
-    aria-valuemin="0"
-    aria-valuemax="100"
-    style="width: 70%"
-  >
-    70%
-  </div>
-</div>
-<h2>Colored Progress Bars</h2>
-<p>The contextual classes colors the progress bars:</p>
-<div class="progress">
-  <div
-    class="progress-bar progress-bar-success"
-    role="progressbar"
-    aria-valuenow="40"
-    aria-valuemin="0"
-    aria-valuemax="100"
-    style="width: 40%"
-  >
-    40% Complete (success)
-  </div>
-</div>
+<hr>
 <div class="progress">
   <div
     class="progress-bar progress-bar-info"
@@ -53,6 +26,7 @@
     50% Complete (info)
   </div>
 </div>
+<hr>
 <div class="progress">
   <div
     class="progress-bar progress-bar-warning"
@@ -65,6 +39,7 @@
     60% Complete (warning)
   </div>
 </div>
+<hr>
 <div class="progress">
   <div
     class="progress-bar progress-bar-danger"
@@ -77,56 +52,7 @@
     70% Complete (danger)
   </div>
 </div>
-<h2>Striped Progress Bars</h2>
-<p>The .progress-bar-striped class adds stripes to the progress bars:</p>
-<div class="progress">
-  <div
-    class="progress-bar progress-bar-success progress-bar-striped"
-    role="progressbar"
-    aria-valuenow="40"
-    aria-valuemin="0"
-    aria-valuemax="100"
-    style="width: 40%"
-  >
-    40% Complete (success)
-  </div>
-</div>
-<div class="progress">
-  <div
-    class="progress-bar progress-bar-info progress-bar-striped"
-    role="progressbar"
-    aria-valuenow="50"
-    aria-valuemin="0"
-    aria-valuemax="100"
-    style="width: 50%"
-  >
-    50% Complete (info)
-  </div>
-</div>
-<div class="progress">
-  <div
-    class="progress-bar progress-bar-warning progress-bar-striped"
-    role="progressbar"
-    aria-valuenow="60"
-    aria-valuemin="0"
-    aria-valuemax="100"
-    style="width: 60%"
-  >
-    60% Complete (warning)
-  </div>
-</div>
-<div class="progress">
-  <div
-    class="progress-bar progress-bar-danger progress-bar-striped"
-    role="progressbar"
-    aria-valuenow="70"
-    aria-valuemin="0"
-    aria-valuemax="100"
-    style="width: 70%"
-  >
-    70% Complete (danger)
-  </div>
-</div>
+<hr>
 <div class="progress">
   <div
     class="progress-bar progress-bar-striped active"
@@ -138,25 +64,23 @@
   >
     40%
   </div>
-  <h2>Stacked Progress Bars</h2>
-  <p>
-    Create a stacked progress bar by placing multiple bars into the same div
-    with class .progress:
-  </p>
+</div>
+<hr>
+
   <div class="progress">
     <div
       class="progress-bar progress-bar-success"
       role="progressbar"
       style="width: 40%"
     >
-      Free Space
+      Free Space Stacked Progress Bars
     </div>
     <div
       class="progress-bar progress-bar-warning"
       role="progressbar"
       style="width: 10%"
     >
-      Warning
+      Warning  multiple bars into the same div
     </div>
     <div
       class="progress-bar progress-bar-danger"
@@ -166,53 +90,39 @@
       Danger
     </div>
   </div>
-
-  <h3>Tabs</h3>
+  <hr>
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Menu 1</a></li>
-    <li><a href="#">Menu 2</a></li>
-    <li><a href="#">Menu 3</a></li>
-  </ul>
-  <br />
-  <p>
-    <strong>Note:</strong> This example shows how to create a basic navigation
-    tab. It is not toggleable/dynamic yet (you can't click on the links to
-    display different content)- see the last example in the Bootstrap Tabs and
-    Pills Tutorial to find out how this can be done.
-  </p>
-  <h3>Tabs With Dropdown Menu</h3>
-  <ul class="nav nav-tabs">
-    <li class="active"><a href="#">Home</a></li>
+    <li class="active"><a href="#">basic navigation</a></li>
     <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#"
         >Menu 1 <span class="caret"></span
       ></a>
       <ul class="dropdown-menu">
+      <li class="dropdown-header">Dropdown header 1</li>
+
         <li><a href="#">Submenu 1-1</a></li>
-        <li><a href="#">Submenu 1-2</a></li>
+        <li><a href="#">Tabs 1-2</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">Dropdown header 2</li>
+
         <li><a href="#">Submenu 1-3</a></li>
+
       </ul>
     </li>
     <li><a href="#">Menu 2</a></li>
     <li><a href="#">Menu 3</a></li>
   </ul>
-  <h3>Pills</h3>
+
+  <hr>
+
   <ul class="nav nav-pills">
-    <li class="active"><a href="#">Home</a></li>
+    <li class="active"><a href="#">Pills</a></li>
     <li><a href="#">Menu 1</a></li>
     <li><a href="#">Menu 2</a></li>
     <li><a href="#">Menu 3</a></li>
   </ul>
-  <h3>Vertical Pills</h3>
-  <p>Use the .nav-stacked class to vertically stack pills:</p>
-  <ul class="nav nav-pills nav-stacked">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Menu 1</a></li>
-    <li><a href="#">Menu 2</a></li>
-    <li><a href="#">Menu 3</a></li>
-  </ul>
-  <h3>Vertical Pills</h3>
+  <hr>
+
   <div class="row">
     <div class="col-md-3">
       <p>
@@ -234,58 +144,48 @@
     </div>
     <div class="col-md-3">
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="#">Vertical Pills</a></li>
         <li><a href="#">Menu 1</a></li>
-        <li><a href="#">Menu 2</a></li>
-        <li><a href="#">Menu 3</a></li>
+        <!-- dropup  you can also use this here-->
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+            >Menu 1 <span class="caret"></span
+          ></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="#">Submenu 1-1</a></li>
+            <li><a href="#">Submenu 1-2</a></li>
+            <li class="disabled"><a href="#">Disabled</a></li>
+            <li class="active"><a href="#">Active</a></li>
+            <li><a href="#">Submenu 1-3</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
     <div class="clearfix visible-lg"></div>
   </div>
-  <h3>Pills With Dropdown Menu</h3>
-  <ul class="nav nav-pills nav-stacked">
-    <li class="active"><a href="#">Home</a></li>
-    <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-        >Menu 1 <span class="caret"></span
-      ></a>
-      <ul class="dropdown-menu">
-        <li><a href="#">Submenu 1-1</a></li>
-        <li><a href="#">Submenu 1-2</a></li>
-        <li><a href="#">Submenu 1-3</a></li>
-      </ul>
-    </li>
-    <li><a href="#">Menu 2</a></li>
-    <li><a href="#">Menu 3</a></li>
-  </ul>
-  <h3>Centered Tabs</h3>
-  <p>
-    To center/justify the tabs and pills, use the .nav-justified class. Note
-    that on screens that are smaller than 768px, the list items are stacked
-    (content will remain centered).
-  </p>
+
+  <hr>
+
   <ul class="nav nav-tabs nav-justified">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Menu 1</a></li>
-    <li><a href="#">Menu 2</a></li>
-    <li><a href="#">Menu 3</a></li>
+    <li class="active"><a href="#">Centered Tabs</a></li>
+    <li><a href="#">screens that are smaller than 768px,</a></li>
+    <li><a href="#">  the list items are stacked Menu 2</a></li>
+    <li><a href="#"> content will remain centered Menu 3</a></li>
   </ul>
-  <br />
-  <h3>Centered Pills</h3>
+  <hr>
+
   <ul class="nav nav-pills nav-justified">
-    <li class="active"><a href="#">Home</a></li>
+    <li class="active"><a href="#">Centered Pills</a></li>
     <li><a href="#">Menu 1</a></li>
     <li><a href="#">Menu 2</a></li>
     <li><a href="#">Menu 3</a></li>
   </ul>
-  <h2>Dynamic Tabs</h2>
-  <p>
-    To make the tabs toggleable, add the data-toggle="tab" attribute to each
-    link. Then add a .tab-pane class with a unique ID for every tab and wrap
-    them inside a div element with class .tab-content.
-  </p>
+
+  <hr>
+
+
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li class="active"><a data-toggle="tab" href="#home"> Dynamic Tabs Home</a></li>
     <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
     <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
     <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
@@ -320,14 +220,10 @@
       </p>
     </div>
   </div>
-  <h2>Dynamic Pills</h2>
-  <p>
-    To make the tabs toggleable, add the data-toggle="pill" attribute to each
-    link. Then add a .tab-pane class with a unique ID for every tab and wrap
-    them inside a div element with class .tab-content.
-  </p>
+  <hr>
+
   <ul class="nav nav-pills">
-    <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+    <li class="active"><a data-toggle="pill" href="#home"> Dynamic Pills Home</a></li>
     <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
     <li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
     <li><a data-toggle="pill" href="#menu3">Menu 3</a></li>
@@ -362,30 +258,18 @@
       </p>
     </div>
   </div>
+  <hr>
 
   <form>
     <div class="form-group">
-      <label for="formGroupExampleInput">Example label</label>
+      <label for="formGroupExampleInput">Vertical (basic) form</label>
       <input
         type="text"
         class="form-control"
         id="formGroupExampleInput"
-        placeholder="Example input"
+        placeholder="Example input" required
       />
     </div>
-    <div class="form-group">
-      <label for="formGroupExampleInput2">Another label</label>
-      <input
-        type="text"
-        class="form-control"
-        id="formGroupExampleInput2"
-        placeholder="Another input"
-      />
-    </div>
-  </form>
-
-  <h2>Vertical (basic) form</h2>
-  <form>
     <div class="form-group">
       <label for="email">Email:</label>
       <input
@@ -404,19 +288,27 @@
         placeholder="Enter password"
       />
     </div>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
     <div class="checkbox">
       <label><input type="checkbox" /> Remember me</label>
     </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="" />Option 1</label>
+    </div>
+    <div class="checkbox disabled">
+      <label><input type="checkbox" value="" disabled />Option 2</label>
+    </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
-  <h2>Inline form</h2>
-  <p>
-    Make the viewport larger than 768px wide to see that all of the form
-    elements are inline, left aligned, and the labels are alongside.
-  </p>
+  <hr>
+
+
   <form class="form-inline">
     <div class="form-group">
-      <label for="email">Email:</label>
+      <label for="email"> Inline form Email:</label>
       <input
         type="email"
         class="form-control"
@@ -438,11 +330,9 @@
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
-  <h2>Inline form with .sr-only class</h2>
-  <p>
-    Make the viewport larger than 768px wide to see that all of the form
-    elements are inline, left aligned, and the labels are alongside.
-  </p>
+  <hr>
+
+
   <form class="form-inline">
     <div class="form-group">
       <label class="sr-only" for="email">Email:</label>
@@ -467,10 +357,11 @@
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
-  <h2>Horizontal form</h2>
+  <hr>
+
   <form class="form-horizontal">
     <div class="form-group">
-      <label class="control-label col-sm-2" for="email">Email:</label>
+      <label class="control-label col-sm-2" for="email"> Horizontal form Email:</label>
       <div class="col-sm-10">
         <input
           type="email"
@@ -504,41 +395,14 @@
       </div>
     </div>
   </form>
-  <h2>Form control: input</h2>
-  <p>
-    The form below contains two input elements; one of type text and one of type
-    password:
-  </p>
-  <form>
-    <div class="form-group">
-      <label for="usr">Name:</label>
-      <input type="text" class="form-control" id="usr" />
-    </div>
-    <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" />
-    </div>
-  </form>
-  <div class="form-group">
-    <label for="comment">Comment:</label>
-    <textarea class="form-control" rows="5" id="comment"></textarea>
-  </div>
-  <form>
-    <div class="checkbox">
-      <label><input type="checkbox" value="" />Option 1</label>
-    </div>
-    <div class="checkbox">
-      <label><input type="checkbox" value="" />Option 2</label>
-    </div>
-    <div class="checkbox disabled">
-      <label><input type="checkbox" value="" disabled />Option 3</label>
-    </div>
-  </form>
-  <h2>Form control: inline checkbox</h2>
-  <p>The form below contains three inline checkboxes:</p>
+  <hr>
+
+
+
+
   <form>
     <label class="checkbox-inline">
-      <input type="checkbox" value="" />Option 1
+      <input type="checkbox" value="" />inline checkbox Option 1
     </label>
     <label class="checkbox-inline">
       <input type="checkbox" value="" />Option 2
@@ -547,6 +411,8 @@
       <input type="checkbox" value="" />Option 3
     </label>
   </form>
+  <hr>
+
   <div class="radio">
     <label><input type="radio" name="optradio" />Option 1</label>
   </div>
@@ -556,8 +422,9 @@
   <div class="radio disabled">
     <label><input type="radio" name="optradio" disabled />Option 3</label>
   </div>
+
   <label class="radio-inline"
-    ><input type="radio" name="optradio" />Option 1</label
+    ><input type="radio" name="optradio" /> radio-inline Option 1</label
   >
   <label class="radio-inline"
     ><input type="radio" name="optradio" />Option 2</label
@@ -565,8 +432,8 @@
   <label class="radio-inline"
     ><input type="radio" name="optradio" />Option 3</label
   >
-  <h2>Form control: select</h2>
-  <p>The form below contains two dropdown menus (select lists):</p>
+  <hr>
+
   <form>
     <div class="form-group">
       <label for="sel1">Select list (select one):</label>
@@ -589,10 +456,10 @@
       </select>
     </div>
   </form>
-  <h2>Horizontal form with static control</h2>
+<hr>
   <form class="form-horizontal">
     <div class="form-group">
-      <label class="control-label col-sm-2" for="email">Email:</label>
+      <label class="control-label col-sm-2" for="email"> Horizontal form Email:</label>
       <div class="col-sm-10">
         <p class="form-control-static">someone@example.com</p>
       </div>
@@ -614,12 +481,10 @@
       </div>
     </div>
   </form>
-  <h3>Input Groups</h3>
-  <p>The .</p>
-  <p>The .</p>
+  <hr>
+
   <form>
     <div class="input-group">
-      <!-- .input-group-addon - attaches an icon or help text next to the input field -->
       <span class="input-group-addon"
         ><i class="glyphicon glyphicon-user"></i
       ></span>
@@ -628,7 +493,7 @@
         type="text"
         class="form-control"
         name="email"
-        placeholder="Email"
+        placeholder="Email input-group-addon - attaches an icon or help text next to the input field"
       />
     </div>
     <div class="input-group">
@@ -655,8 +520,8 @@
       />
     </div>
   </form>
-  <br />
-  <p>It can also be used on the right side of the input:</p>
+  <hr>
+
   <form>
     <div class="input-group">
       <input
@@ -682,8 +547,6 @@
         ><i class="glyphicon glyphicon-lock"></i
       ></span>
     </div>
-  </form>
-  <form>
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Search" />
       <div class="input-group-btn">
@@ -693,10 +556,11 @@
       </div>
     </div>
   </form>
-  <h2>Horizontal form: control states</h2>
+  <hr>
+
   <form class="form-horizontal">
     <div class="form-group">
-      <label class="col-sm-2 control-label">Focused</label>
+      <label class="col-sm-2 control-label"> control states Focused</label>
       <div class="col-sm-10">
         <input
           class="form-control"
@@ -771,7 +635,8 @@
       </div>
     </div>
   </form>
-  <h2>Inline form: control states</h2>
+  <hr>
+
   <form class="form-inline">
     <div class="form-group">
       <label for="focusedInput">Focused</label>
@@ -799,11 +664,9 @@
       <span class="glyphicon glyphicon-remove form-control-feedback"></span>
     </div>
   </form>
-  <h2>Input Sizing</h2>
-  <p>
-    The form below shows input elements with different heights using .input-lg
-    and .input-sm:
-  </p>
+  <hr>
+
+
   <form>
     <div class="form-group">
       <label for="inputdefault">Default input</label>
@@ -843,12 +706,8 @@
       </select>
     </div>
   </form>
-  <h2>Input Sizing</h2>
-  <p>
-    You can quickly size labels and form controls within a Horizontal form by
-    adding .form-group-lg or .form-group-sm to the div class="form-group"
-    element:
-  </p>
+  <hr>
+
   <form class="form-horizontal">
     <div class="form-group form-group-lg">
       <label class="col-sm-2 control-label" for="lg">form-group-lg</label>
@@ -863,12 +722,8 @@
       </div>
     </div>
   </form>
-  <h1>Input Group Size</h1>
-  <p>
-    The .input-group class is a container to enhance an input by adding an icon,
-    text or a button in front or behind it as a "help text".
-  </p>
-  <p>Use the .input-group-lg if you want a large input group:</p>
+  <hr>
+
   <form>
     <div class="input-group input-group-lg">
       <input type="text" class="form-control" placeholder="Search" />
@@ -879,8 +734,8 @@
       </div>
     </div>
   </form>
-  <br />
-  <p>Use the .input-group-sm if you want a small input group:</p>
+  <hr>
+
   <form>
     <div class="input-group input-group-sm">
       <input type="text" class="form-control" placeholder="Search" />
@@ -891,16 +746,14 @@
       </div>
     </div>
   </form>
-  <h2>Column Sizing</h2>
-  <p>
-    The form below shows input elements with different widths using different
-    .col-xs-* classes:
-  </p>
+  <hr>
+
   <form>
     <div class="form-group">
       <div class="col-xs-2">
         <label for="ex1">col-xs-2</label>
-        <input class="form-control" id="ex1" type="text" />
+        <input class="form-control" id="ex1" type="text" placeholder="different widths using different
+        .col-xs-*" />
       </div>
       <div class="col-xs-3">
         <label for="ex2">col-xs-3</label>
@@ -912,8 +765,8 @@
       </div>
     </div>
   </form>
-  <h2>Help text</h2>
-  <p>Use the .help-block class to add a block level help text in forms:</p>
+  <hr>
+
   <form>
     <div class="form-group">
       <label for="pwd">Password:</label>
@@ -930,7 +783,5 @@
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
-  <div class="well well-sm">Small Well</div>
-  <div class="well well-lg">Large Well</div>
-  <br />
-</div>
+  <hr>
+

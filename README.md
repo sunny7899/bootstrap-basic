@@ -1,6 +1,8 @@
 # About
 
 bootstrap classes usage
+progress bar, forms, tabs, nav
+
 
 # Dependencies used
 
